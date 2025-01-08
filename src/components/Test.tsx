@@ -65,7 +65,7 @@ export default function Test() {
     };
 
     initializeData();
-  }, []);
+  }, [currentPage]);
 
   useEffect(() => {
     fetchPageData(currentPage);
